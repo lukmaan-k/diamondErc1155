@@ -44,9 +44,9 @@ zkSync hardhat does not spin its own node when executing tests, making steps 1 a
 - Re-entrancy can only occur from the `_doSafeTransferAcceptanceCheck` and `_doSafeBatchTransferAcceptanceCheck` hooks, though this is only called after all state changes (checks-effects-interactions pattern), so reentrancy guard is not needed here. Other protocols should still be aware of cross-contract or view-only reentrancy
 
 ## Deployment Addresses:
-All contracts deployed on zkSync Era testnet:
-- DiamondCutFacet: 0x9a4AAad19026eD1ef8481D6355ca3711a9045b9B
-- DiamondLoupeFacet: 0x121dA47A5b0848089ED55A2F29E45476e0283256
-- ERC1155Facet: 0x9Cf618965eF8B04d75B7d3ceB7Cf4D7dcdcc78ed
-- ERC1155HolderMock: 0x624Fd7DB48D310696ab981e70B803387011d7B4D
-- Main Diamond Proxy: 0x6220Df8eC674BE62aC200414d6cF8508027A9Cd8
+All contracts deployed on zkSync Era Goerli testnet. These have not been verified
+- DiamondCutFacet: https://goerli.explorer.zksync.io/address/0x9a4AAad19026eD1ef8481D6355ca3711a9045b9B
+- DiamondLoupeFacet: https://goerli.explorer.zksync.io/address/0x121dA47A5b0848089ED55A2F29E45476e0283256
+- ERC1155Facet: https://goerli.explorer.zksync.io/address/0x9Cf618965eF8B04d75B7d3ceB7Cf4D7dcdcc78ed
+- ERC1155HolderMock: https://goerli.explorer.zksync.io/address/0x624Fd7DB48D310696ab981e70B803387011d7B4D
+- Main Diamond Proxy: https://goerli.explorer.zksync.io/address/0x6220Df8eC674BE62aC200414d6cF8508027A9Cd8

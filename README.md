@@ -1,4 +1,4 @@
-# zkSync Hardhat project
+# zkSync Diamond Proxy ERC1155
 
 This project was scaffolded with [zksync-cli](https://github.com/matter-labs/zksync-cli).
 
